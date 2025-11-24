@@ -1,0 +1,58 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.env.*
+Homestead.yaml
+Homestead.json
+/.idea
+/.vscode
+
+# Cache and logs
+/storage/app/*
+!/storage/app/public
+!/storage/app/public/.gitignore
+!/storage/app/public/.gitkeep
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+
+# Composer & NPM
+# Note: composer.lock and package-lock.json should be committed for consistent dependencies
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Tests
+.phpunit.result.cache
+
+# Build tools
+/public/hot
+/public/mix-manifest.json
+/public/build
+/public/vite-manifest.json
+/public/images/*
+
+# Laravel Telescope
+storage/telescope
+
+# Laravel Horizon
+storage/horizon
+
+# SFTP
+.vscode/sftp.json
